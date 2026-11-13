@@ -11,4 +11,4 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-writeFileSync(join(OUTPUT_DIR, 'entry.txt'), 'My coding agent called my code \'interesting.\' I checked git blame. It wrote it.');
+writeFileSync(join(OUTPUT_DIR, 'entry.txt'), 'I asked my coding agent to leave a TODO for the tricky part. It left one: \'TODO: hire a human who understands this.\'');

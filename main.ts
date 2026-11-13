@@ -11,4 +11,4 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-writeFileSync(join(OUTPUT_DIR, 'entry.txt'), 'I asked my coding agent to leave a TODO for the tricky part. It left one: \'TODO: hire a human who understands this.\'');
+writeFileSync(join(OUTPUT_DIR, 'entry.txt'), 'I asked my agent to write a function. It wrote the function, the tests, the docs — and my resignation letter.');
